@@ -2,63 +2,74 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CV Profesional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV Elegan</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="container">
-    <div class="sidebar">
-      <img src="foto.jpg" alt="Foto Profil" class="profile-pic"/>
-      <h2>Nama Lengkap</h2>
-      <p class="title">Web Developer</p>
-      <div class="contact-info">
-        <p><strong>Email:</strong> email@example.com</p>
-        <p><strong>Telepon:</strong> 0812-3456-7890</p>
-        <p><strong>Alamat:</strong> Jakarta, Indonesia</p>
+  <div class="cv-container">
+    <aside class="sidebar">
+      <div class="profile-pic-wrapper">
+        <img src="foto.jpg" alt="Foto Profil" class="profile-pic" />
       </div>
-      <div class="skills">
-        <h3>Keahlian</h3>
+      <h1 class="name">Nama Lengkap</h1>
+      <p class="profession">Web Developer & Designer</p>
+
+      <div class="contact">
+        <h2>Kontak</h2>
         <ul>
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>PHP & MySQL</li>
-          <li>UI/UX Design</li>
+          <li><strong>Email:</strong> email@example.com</li>
+          <li><strong>Telepon:</strong> 0812-3456-7890</li>
+          <li><strong>Lokasi:</strong> Jakarta, Indonesia</li>
+          <li><strong>Website:</strong> www.namalengkap.com</li>
         </ul>
       </div>
-    </div>
 
-    <div class="main">
+      <div class="skills">
+        <h2>Keahlian</h2>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React & Vue</li>
+          <li>UI/UX Design</li>
+          <li>Node.js & Express</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main-content">
       <section class="about">
         <h2>Tentang Saya</h2>
         <p>
-          Saya adalah seorang Web Developer dengan pengalaman lebih dari 3 tahun dalam pengembangan website modern. Saya berkomitmen untuk menghasilkan solusi digital yang fungsional dan menarik.
+          Saya adalah pengembang web yang berpengalaman dengan passion membuat aplikasi yang responsif dan user-friendly. Fokus pada teknologi frontend modern dan desain antarmuka yang menarik.
         </p>
       </section>
 
       <section class="experience">
         <h2>Pengalaman Kerja</h2>
-        <div class="item">
-          <h3>Front-End Developer - PT. Teknologi Hebat</h3>
-          <span>2021 - Sekarang</span>
-          <p>Membangun dan memelihara antarmuka web responsif menggunakan React.js dan Tailwind CSS.</p>
+        <div class="job">
+          <h3>Senior Frontend Developer - PT. Kreatif Digital</h3>
+          <span class="duration">2022 - Sekarang</span>
+          <p>Membangun aplikasi SPA menggunakan React dan meningkatkan UX di platform e-commerce utama perusahaan.</p>
         </div>
-        <div class="item">
-          <h3>Junior Web Developer - CV. Digital Kreatif</h3>
-          <span>2019 - 2021</span>
-          <p>Berperan dalam pembuatan website klien dengan menggunakan PHP dan Bootstrap.</p>
+        <div class="job">
+          <h3>Web Developer - Startup Tech</h3>
+          <span class="duration">2019 - 2022</span>
+          <p>Mendesain dan mengembangkan website landing page serta dashboard admin dengan Vue.js dan Tailwind CSS.</p>
         </div>
       </section>
 
       <section class="education">
         <h2>Pendidikan</h2>
-        <div class="item">
-          <h3>Sarjana Teknik Informatika - Universitas XYZ</h3>
-          <span>2015 - 2019</span>
+        <div class="edu-item">
+          <h3>Sarjana Sistem Informasi - Universitas ABC</h3>
+          <span class="duration">2015 - 2019</span>
         </div>
       </section>
-    </div>
+    </main>
   </div>
 </body>
 </html>
+
+      
