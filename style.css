@@ -1,0 +1,104 @@
+/* Font dan reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 30px;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.sidebar .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+.sidebar .title {
+  font-size: 1.1em;
+  color: #dcdcdc;
+  margin-bottom: 20px;
+}
+
+.sidebar .contact-info,
+.sidebar .skills {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.sidebar h3 {
+  color: #ffffff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+
+/* Main content */
+.main {
+  flex: 2 1 700px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.main section {
+  margin-bottom: 30px;
+}
+
+.main h2 {
+  color: #8e44ad;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #8e44ad;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  margin: 0;
+  color: #3498db;
+}
+
+.item span {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar, .main {
+    flex: 1 1 100%;
+  }
+}
