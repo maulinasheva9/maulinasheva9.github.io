@@ -148,3 +148,9 @@ footer {
   color: #555;
   line-height: 1.5;
 }
+
+.project-item img:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
