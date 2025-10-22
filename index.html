@@ -3,91 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Profesional | Maulina Sheva</title>
+    <title>Nama Anda | Portofolio & CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <header id="beranda" class="section">
         <div class="container">
-            <h1>Maulina Sheva</h1>
-            <nav>
-                <ul>
-                    <li><a href="#tentang">Tentang</a></li>
-                    <li><a href="#proyek">Proyek</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
-                </ul>
-            </nav>
+            <div class="profil">
+                <img src="foto-profil.jpg" alt="Foto Profil" class="foto-profil">
+                <h1>Nama Lengkap Anda</h1>
+                <p class="jabatan">Spesialis di Bidang [Sebutkan Bidang Anda]</p>
+                <a href="#kontak" class="btn">Hubungi Saya</a>
+            </div>
         </div>
     </header>
 
-    <section id="tentang" class="hero">
+    <section id="tentang" class="section">
         <div class="container">
-            <div class="profile-wrapper">
-                <img src="Maulina Sheva.png" alt="Foto Profil Anda" class="profile-img">
+            <h2>Tentang Saya</h2>
+            <p>Sebutkan ringkasan singkat diri Anda. Misalnya, "Seorang [Profesi] yang passionate dengan pengalaman X tahun dalam [Bidang]. Saya fokus pada pembuatan solusi yang efektif dan berorientasi pada pengguna."</p>
+            
+            <div class="info-cv">
+                <h3>Informasi Kontak</h3>
+                <ul>
+                    <li><strong>Email:</strong> nama.anda@email.com</li>
+                    <li><strong>Telepon:</strong> +62 812-3456-7890</li>
+                    <li><strong>Lokasi:</strong> Kota/Negara Anda</li>
+                </ul>
             </div>
-            <h2>Halo, Saya Maulina Sheva 👋</h2>
-            <p class="subtitle">Saya siswa kelas XI SMK Informatika Utama dengan jurusan Rekayasa Perangkat Lunak (RPL).
-Saya memiliki kemampuan dalam HTML, CSS, dan JavaScript, serta memahami dasar-dasar pemrograman menggunakan JavaScript.
-Selain itu, saya juga terbiasa menggunakan Canva untuk membuat desain yang menarik dan kreatif.
-
-Saya dikenal sebagai pribadi yang ramah, bertanggung jawab, tekun, pantang menyerah, serta mampu bekerja sama dengan baik dalam tim.
-Dengan latar belakang di bidang RPL, saya berkomitmen untuk terus mengembangkan diri di dunia teknologi dan industri kreatif digital, serta berkontribusi dalam menciptakan solusi yang inovatif.</p>
-            <a href="#proyek" class="button primary">Lihat Proyek Saya</a>
         </div>
     </section>
 
-    <section id="proyek" class="proyek-section">
+    <section id="pengalaman" class="section dark-bg">
         <div class="container">
-            <h2>Proyek Pilihan</h2>
-            <div class="proyek-grid">
-                
-                <div class="proyek-card">
-                    <img src="parfume.jpeg" alt="Screenshot Proyek E-Commerce" class="proyek-img">
-                    <h3>Proyek Parfume shop</h3>
-                    <p>Website toko online lengkap dengan fitur keranjang dan checkout. Dibangun menggunakan **HTML** dan **JavaScript**.</p>
-                    <div class="teknologi">
-                        <span>#HTML</span>
-                        <span>#CSS</span>
-                        <span>#JavaSript</span>
-                    </div>
-                    <a href="#" target="_blank" class="button secondary">Lihat Demo <i class="fas fa-external-link-alt"></i></a>
+            <h2>Pengalaman Kerja</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Jabatan & Perusahaan 1</h4>
+                    <p class="periode">Tahun Mulai - Tahun Selesai</p>
+                    <ul>
+                        <li>Deskripsi pencapaian/tanggung jawab 1.</li>
+                        <li>Deskripsi pencapaian/tanggung jawab 2.</li>
+                    </ul>
                 </div>
-                
-                <div class="proyek-card">
-                    <img src="kasir.jpg" alt="Screenshot Proyek Dashboard" class="proyek-img">
-                    <h3>Website Kasir Sederhana</h3>
-                    <p>Aplikasi web untuk memvisualisasikan data penjualan secara *real-time*. Menggunakan **Laravel** dan **MySQL**.</p>
-                    <div class="teknologi">
-                        <span>#Laravel</span>
-                        <span>#PHP</span>
-                        <span>#MySQL</span>
-                    </div>
-                    <a href="#" target="_blank" class="button secondary">Lihat Kode <i class="fab fa-github"></i></a>
+                <div class="timeline-item">
+                    <h4>Jabatan & Perusahaan 2</h4>
+                    <p class="periode">Tahun Mulai - Tahun Selesai</p>
+                    <ul>
+                        <li>Deskripsi pencapaian/tanggung jawab 1.</li>
+                        <li>Deskripsi pencapaian/tanggung jawab 2.</li>
+                    </ul>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="portofolio" class="section">
+        <div class="container">
+            <h2>Proyek & Portofolio</h2>
+            <div class="grid-portofolio">
+                <div class="proyek-item">
+                    <img src="proyek1.jpg" alt="Proyek 1">
+                    <h3>Nama Proyek 1</h3>
+                    <p>Deskripsi singkat proyek dan teknologi yang digunakan. <a href="#">Lihat Proyek</a></p>
+                </div>
+                <div class="proyek-item">
+                    <img src="proyek2.jpg" alt="Proyek 2">
+                    <h3>Nama Proyek 2</h3>
+                    <p>Deskripsi singkat proyek dan teknologi yang digunakan. <a href="#">Lihat Proyek</a></p>
+                </div>
                 </div>
         </div>
     </section>
 
-    <section id="kontak" class="kontak-section">
+    <section id="keterampilan" class="section dark-bg">
         <div class="container">
-            <h2>Kontak Saya</h2>
-            <p>Mari terhubung dan berdiskusi tentang proyek atau peluang kerja sama.</p>
-            <ul class="kontak-list">
-                <li><i class="fas fa-envelope"></i> <a href="mailto:emailanda@gmail.com">emailanda@gmail.com</a></li>
-                <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn Anda</a></li>
-                <li><i class="fab fa-github"></i> <a href="#">GitHub Anda</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Portofolio Maulina Sheva. Dibuat dengan ❤.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
