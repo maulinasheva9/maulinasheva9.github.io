@@ -1,100 +1,89 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CV Maulina Sheva</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Profesional | [Nama Anda]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <div class="cv-container">
-    <aside class="sidebar">
-      <div class="profile-pic-wrapper">
-        <img src="Maulina Sheva.png" alt="Foto Profil" class="profile-pic" />
-      </div>
-      <h1 class="name">Maulina Sheva</h1>
-      <p class="profession">Web Developer & Designer</p>
 
-      <div class="contact">
-        <h2>Kontak</h2>
-        <ul>
-          <li><strong>Email:</strong> maulina.sheva9@smk.belajar.id</li>
-          <li><strong>Telepon:</strong> 0877-3679-5872</li>
-          <li><strong>Tempat/Tanggal Lahir:</strong> Jakarta, 09/03/2009</li>
-          <li><strong>Lokasi:</strong> Pondok Cabe, Tangerang Selatan, Indonesia</li>
-          <li><strong>Website:</strong> www.maulinasheva.com</li>
-        </ul>
-      </div>
-
-      <div class="skills">
-        <h2>Keahlian</h2>
-        <ul>
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-          <li>Laravel</li>
-          <li>Design (Canva)</li>
-        </ul>
-      </div>
-    </aside>
-
-    <main class="main-content">
-      <section class="about">
-        <h2>Profil</h2>
-        <p>
-          Saya Maulina Sheva, siswi kelas XI SMK Informatika Utama dengan jurusan Rekayasa Perangkat Lunak (RPL).
-Saya memiliki kemampuan dalam HTML, CSS, dan JavaScript, serta memahami dasar-dasar pemrograman menggunakan JavaScript.
-Selain itu, saya juga terbiasa menggunakan Canva untuk membuat desain yang menarik dan kreatif.
-
-Saya dikenal sebagai pribadi yang ramah, bertanggung jawab, tekun, serta mampu bekerja sama dengan baik dalam tim.
-Dengan latar belakang di bidang RPL, saya berkomitmen untuk terus mengembangkan diri di dunia teknologi dan industri kreatif digital, serta berkontribusi dalam menciptakan solusi yang inovatif.
-        </p>
-      </section>
-
-      <section class="experience">
-        <h2>Pengalaman</h2>
-        <div class="job">
-          <h3>
-    <img src="parfume.png" alt="Icon Kasir" class="job-icon" onclick="showImage('parfume.png')" />
-    Membuat website Operator Kasir sederhana
-  </h3>
-  <span class="duration">kelas 11 - 2025</span>
-</div>
-
-            Membuat website onlineshop (Parfume)
-          </h3>
-          <span class="duration">kelas 10 - 2024 </span>
+    <header>
+        <div class="container">
+            <h1>[Nama Anda]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="job">
-          <h3>
-          <div class="job">
-  <h3>
-    <img src="kasir.png" alt="Icon Kasir" class="job-icon" onclick="showImage('kasir.png')" />
-    Membuat website Operator Kasir sederhana
-  </h3>
-  <span class="duration">kelas 11 - 2025</span>
-</div>
+    </header>
 
-            Membuat website Operator Kasir sederhana
-          </h3>
-          <span class="duration">kelas 11 - 2025 </span>
+    <section id="tentang" class="hero">
+        <div class="container">
+            <div class="profile-wrapper">
+                <img src="profil.jpg" alt="Foto Profil Anda" class="profile-img">
+            </div>
+            <h2>Halo, Saya [Nama Anda] 👋</h2>
+            <p class="subtitle">Saya seorang **Web Developer** yang fokus pada pembuatan solusi digital yang efisien dan menarik.</p>
+            <p>Saya memiliki keahlian dalam HTML, CSS, JavaScript, dan framework modern. Saya bersemangat untuk mengubah ide menjadi produk yang berfungsi.</p>
+            <a href="#proyek" class="button primary">Lihat Proyek Saya</a>
         </div>
-      </section>
+    </section>
 
-      <section class="education">
-        <h2>Pendidikan</h2>
-        <div class="edu-item">
-          <h3>SMP Nusantara Plus</h3>
-          <span class="duration">2021-2024</span>
+    <section id="proyek" class="proyek-section">
+        <div class="container">
+            <h2>Proyek Pilihan</h2>
+            <div class="proyek-grid">
+                
+                <div class="proyek-card">
+                    <img src="proyek1.jpg" alt="Screenshot Proyek E-Commerce" class="proyek-img">
+                    <h3>Proyek E-Commerce Modern</h3>
+                    <p>Website toko online lengkap dengan fitur keranjang dan checkout. Dibangun menggunakan **Laravel** dan **Bootstrap**.</p>
+                    <div class="teknologi">
+                        <span>#Laravel</span>
+                        <span>#Bootstrap</span>
+                        <span>#MySQL</span>
+                    </div>
+                    <a href="#" target="_blank" class="button secondary">Lihat Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+                <div class="proyek-card">
+                    <img src="proyek2.jpg" alt="Screenshot Proyek Dashboard" class="proyek-img">
+                    <h3>Dashboard Data Analisis</h3>
+                    <p>Aplikasi web untuk memvisualisasikan data penjualan secara *real-time*. Menggunakan **React** dan **D3.js**.</p>
+                    <div class="teknologi">
+                        <span>#ReactJS</span>
+                        <span>#API</span>
+                        <span>#D3.js</span>
+                    </div>
+                    <a href="#" target="_blank" class="button secondary">Lihat Kode <i class="fab fa-github"></i></a>
+                </div>
+
+                </div>
         </div>
-        <div class="edu-item">
-          <h3>SMK Informatika Utama</h3>
-          <span class="duration">2024-sekarang</span>
+    </section>
+
+    <section id="kontak" class="kontak-section">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <p>Mari terhubung dan berdiskusi tentang proyek atau peluang kerja sama.</p>
+            <ul class="kontak-list">
+                <li><i class="fas fa-envelope"></i> <a href="mailto:emailanda@gmail.com">emailanda@gmail.com</a></li>
+                <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn Anda</a></li>
+                <li><i class="fab fa-github"></i> <a href="#">GitHub Anda</a></li>
+            </ul>
         </div>
-      </section>
-    </main>
-  </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio [Nama Anda]. Dibuat dengan ❤.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
-
-      
