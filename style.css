@@ -149,6 +149,51 @@ footer {
   line-height: 1.5;
 }
 
+/* --- Bagian Pendidikan --- */
+.education {
+  background-color: #f9f8ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.education h2 {
+  color: #4a2b9b;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.education-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.edu-item {
+  background: white;
+  width: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.edu-item h3 {
+  color: #6a4fc1;
+  margin-bottom: 10px;
+}
+
+.edu-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
 .project-item img:hover {
   transform: scale(1.05);
   transition: 0.4s;
