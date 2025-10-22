@@ -5,6 +5,7 @@ body {
   background: linear-gradient(135deg, #f3f4f7, #ece9f9);
 }
 
+/* --- NAVBAR & HEADER --- */
 header.hero {
   padding: 40px 80px;
   position: relative;
@@ -47,16 +48,18 @@ nav a:hover {
   color: #a56cf5;
 }
 
+/* --- HERO CONTENT --- */
 .hero-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .hero-content .text {
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .hero-content h2 {
@@ -91,7 +94,7 @@ nav a:hover {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-/* Skill Section */
+/* --- SKILLS --- */
 .skills {
   text-align: center;
   padding: 60px 20px;
@@ -120,7 +123,7 @@ nav a:hover {
   font-weight: 500;
 }
 
-/* Projects */
+/* --- PROJECTS --- */
 .projects {
   padding: 60px 80px;
   background: #fff;
@@ -156,40 +159,4 @@ nav a:hover {
 .project-card img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-.project-card h3 {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-.project-card p {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-/* Education */
-.education {
-  padding: 60px 80px;
-  text-align: center;
-}
-
-.education ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.education li {
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #a56cf5;
-  color: #fff;
-  font-size: 0.9rem;
-}
+  ma
